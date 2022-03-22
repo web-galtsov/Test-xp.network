@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+body>.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    padding: 80px 15px 20px 15px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (max-width: 1100px){
+    .rs-table-cell .rs-table-cell-first {
+        position: absolute;
+        z-index: 4;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1230px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+.rs-table-cell-content {
+    text-align: center;
+    background-color: #dddddd;
+    color: #000;
+}
+.rs-table-cell-header .rs-table-cell-content {
+    background-color: #fff;
+    color: #222;
+    font-weight: 600;
+}
+.rs-table-cell {
+    border: 2px solid #fff !important;
+}
